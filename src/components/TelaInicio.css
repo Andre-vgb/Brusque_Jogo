@@ -1,0 +1,115 @@
+.tela-inicio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(1.5rem, 4vw, 3rem) 1rem;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.inicio-card {
+  background: var(--card-bg);
+  border-radius: var(--raio);
+  width: 100%;
+  max-width: 360px;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  animation: escalar-entrar 0.35s ease-out;
+}
+
+.inicio-header {
+  background: linear-gradient(160deg, var(--verde-escuro) 0%, var(--verde-brusque) 100%);
+  padding: clamp(1.5rem, 4vw, 2rem) 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.inicio-titulo {
+  font-size: clamp(1.6rem, 5vw, 2rem);
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.titulo-conheca { color: var(--dourado); }
+.titulo-brusque { color: #FFFFFF; }
+
+.inicio-subtitulo {
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+  color: rgba(255,255,255,0.82);
+  font-style: italic;
+  text-align: center;
+}
+
+.inicio-niveis {
+  padding: 1.25rem 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.inicio-niveis-titulo {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--texto-leve);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.btn-nivel {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--raio-btn);
+  color: #fff;
+  font-weight: 700;
+  transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.22);
+  width: 100%;
+  text-align: left;
+}
+
+.btn-nivel:hover  { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,0.3); }
+.btn-nivel:active { transform: translateY(0); }
+
+.btn-facil   { background: linear-gradient(135deg, #1A7820 0%, #2EA035 100%); }
+.btn-medio   { background: linear-gradient(135deg, #C85000 0%, #E86A00 100%); }
+.btn-dificil { background: linear-gradient(135deg, #A01818 0%, #CC2828 100%); }
+
+.nivel-estrelas {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+.nivel-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.nivel-label {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.nivel-desc {
+  font-size: 0.75rem;
+  opacity: 0.88;
+  font-weight: 400;
+}
+
+@media (min-width: 600px) {
+  .inicio-card { max-width: 400px; }
+}
+
+@media (min-width: 1024px) {
+  .tela-inicio { align-items: center; min-height: 100vh; }
+}
+
