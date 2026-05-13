@@ -1,0 +1,82 @@
+:root {
+  --verde-brusque: #1A7820;
+  --verde-escuro:  #0D4F12;
+  --verde-medio:   #2A8C32;
+  --verde-claro:   #C8E6CA;
+  --verde-suave:   #F0F8F0;
+
+  --dourado:       #FFB300;
+  --dourado-escuro:#E65C00;
+  --dourado-claro: #FFF8E1;
+  --dourado-borda: #FFD54F;
+
+  --branco:        #FFFFFF;
+  --card-bg:       #FFFFFF;
+  --fundo:         #111811;
+
+  --texto-escuro:  #112211;
+  --texto-medio:   #2E5A2E;
+  --texto-leve:    #5A8A5A;
+
+  --cor-facil:     #2E8B34;
+  --cor-medio:     #E65C00;
+  --cor-dificil:   #C62828;
+
+  --acerto:        #1A7820;
+  --acerto-claro:  #C8E6CA;
+  --erro:          #C62828;
+  --erro-claro:    #FDEAEA;
+
+  --raio:          18px;
+  --raio-btn:      50px;
+  --sombra:        0 4px 24px rgba(0, 0, 0, 0.32);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+  background: var(--fundo);
+  color: var(--texto-escuro);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+}
+
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+input, select { font-family: inherit; }
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--dourado);
+  outline-offset: 2px;
+}
+
+@keyframes balacar {
+  from { transform: rotate(-4deg); }
+  to   { transform: rotate( 4deg); }
+}
+
+@keyframes entrar {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes escalar-entrar {
+  from { opacity: 0; transform: scale(0.90); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.08); }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--verde-escuro); }
+::-webkit-scrollbar-thumb { background: var(--verde-medio); border-radius: 3px; }
