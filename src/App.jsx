@@ -64,7 +64,7 @@ export default function App() {
 
   const tocarAudio = (src) => {
     pararAudio()
-    const audio = new Audio(src)
+    const audio = new Audio(`${import.meta.env.BASE_URL}${src}`)
     audioRef.current = audio
     audio.play().catch(() => {})
   }
@@ -78,7 +78,7 @@ export default function App() {
     dispatch({ type: 'RESPONDER', indice, correta })
     const tipo = correta ? 'acerto' : 'erro'
     const num = Math.floor(Math.random() * 3) + 1
-    tocarAudio(`/audio/${tipo}_${num}.mp3`)
+    tocarAudio(`audio/${tipo}_${num}.mp3`)
   }
 
   const proximaPergunta = () => {

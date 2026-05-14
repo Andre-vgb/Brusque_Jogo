@@ -25,7 +25,7 @@ export const perguntas = [
       { texto: 'Blumenau',      correta: false },
       { texto: 'Itajaí',        correta: false },
     ],
-    audio: '/audio/pergunta_1.mp3',
+    audio: 'audio/pergunta_1.mp3',
   },
   {
     id: 2, nivel: 'medio',
@@ -37,7 +37,7 @@ export const perguntas = [
       { texto: 'Rio Paraná',       correta: false },
       { texto: 'Rio Itajaí-Mirim', correta: true  },
     ],
-    audio: '/audio/pergunta_2.mp3',
+    audio: 'audio/pergunta_2.mp3',
   },
   {
     id: 3, nivel: 'medio',
@@ -49,7 +49,7 @@ export const perguntas = [
       { texto: 'Santa Catarina', correta: true  },
       { texto: 'Rio de Janeiro', correta: false },
     ],
-    audio: '/audio/pergunta_3.mp3',
+    audio: 'audio/pergunta_3.mp3',
   },
   {
     id: 4, nivel: 'dificil',
@@ -61,7 +61,7 @@ export const perguntas = [
       { texto: 'Praça da Liberdade',       correta: false },
       { texto: 'Praça Tiradentes',         correta: false },
     ],
-    audio: '/audio/pergunta_4.mp3',
+    audio: 'audio/pergunta_4.mp3',
   },
   {
     id: 5, nivel: 'dificil',
@@ -73,7 +73,7 @@ export const perguntas = [
       { texto: 'Carnaval',     correta: false },
       { texto: 'Fenarreco',    correta: true  },
     ],
-    audio: '/audio/pergunta_5.mp3',
+    audio: 'audio/pergunta_5.mp3',
   },
   {
     id: 6, nivel: 'dificil',
@@ -85,7 +85,7 @@ export const perguntas = [
       { texto: 'Japão',          correta: false },
       { texto: 'Estados Unidos', correta: false },
     ],
-    audio: '/audio/pergunta_6.mp3',
+    audio: 'audio/pergunta_6.mp3',
   },
   {
     id: 7, nivel: 'facil',
@@ -97,7 +97,7 @@ export const perguntas = [
       { texto: 'Vermelho e Preto', correta: false },
       { texto: 'Rosa e Laranja',   correta: false },
     ],
-    audio: '/audio/pergunta_7.mp3',
+    audio: 'audio/pergunta_7.mp3',
   },
   {
     id: 8, nivel: 'dificil',
@@ -109,7 +109,7 @@ export const perguntas = [
       { texto: 'Acarajé',          correta: false },
       { texto: 'Marreco Recheado', correta: true  },
     ],
-    audio: '/audio/pergunta_8.mp3',
+    audio: 'audio/pergunta_8.mp3',
   },
   {
     id: 9, nivel: 'medio',
@@ -121,7 +121,7 @@ export const perguntas = [
       { texto: 'Tecidos e Roupas', correta: true  },
       { texto: 'Barcos',           correta: false },
     ],
-    audio: '/audio/pergunta_9.mp3',
+    audio: 'audio/pergunta_9.mp3',
   },
   {
     id: 10, nivel: 'medio',
@@ -133,7 +133,7 @@ export const perguntas = [
       { texto: 'Cidade das Flores',   correta: false },
       { texto: 'Cidade do Sol',       correta: false },
     ],
-    audio: '/audio/pergunta_10.mp3',
+    audio: 'audio/pergunta_10.mp3',
   },
   {
     id: 11, nivel: 'facil',
@@ -145,7 +145,7 @@ export const perguntas = [
       { texto: 'Nega Maluca', correta: false },
       { texto: 'Sonho',       correta: false },
     ],
-    audio: '/audio/pergunta_11.mp3',
+    audio: 'audio/pergunta_11.mp3',
   },
   {
     id: 12, nivel: 'dificil',
@@ -157,7 +157,7 @@ export const perguntas = [
       { texto: 'Parque das Esculturas', correta: true  },
       { texto: 'Parque do Rio Doce',    correta: false },
     ],
-    audio: '/audio/pergunta_12.mp3',
+    audio: 'audio/pergunta_12.mp3',
   },
   {
     id: 13, nivel: 'dificil',
@@ -169,7 +169,7 @@ export const perguntas = [
       { texto: 'Palafita',         correta: false },
       { texto: 'Tenda',            correta: false },
     ],
-    audio: '/audio/pergunta_13.mp3',
+    audio: 'audio/pergunta_13.mp3',
   },
   {
     id: 14, nivel: 'facil',
@@ -181,7 +181,7 @@ export const perguntas = [
       { texto: 'Elefante', correta: false },
       { texto: 'Sabiá',    correta: true  },
     ],
-    audio: '/audio/pergunta_14.mp3',
+    audio: 'audio/pergunta_14.mp3',
   },
   {
     id: 15, nivel: 'facil',
@@ -193,6 +193,6 @@ export const perguntas = [
       { texto: '4 de Agosto',    correta: true  },
       { texto: '1º de Janeiro',  correta: false },
     ],
-    audio: '/audio/pergunta_15.mp3',
+    audio: 'audio/pergunta_15.mp3',
   },
 ]
