@@ -46,14 +46,14 @@ O jogo apresenta 15 perguntas de múltipla escolha sobre Brusque, divididas em t
 - Parque das Esculturas
 - Casas Enxaimel
 - Sabiá
-- Aniversário — 4 de Agosto
+- Aniversário 4 de Agosto
 
 ---
 
 ## Personagens
 
-- **Marreco** — mascote do jogo, aparece na tela inicial acompanhando o jogador
-- **Personagem colonial** — aparece na tela de resultado, vestido com trajes típicos da colonização alemã de Brusque
+- **Marreco** mascote do jogo, aparece na tela inicial acompanhando o jogador
+- **Personagem colonial** aparece na tela de resultado, vestido com trajes típicos da colonização alemã de Brusque
 
 ---
 
