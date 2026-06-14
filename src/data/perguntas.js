@@ -13,6 +13,20 @@ import imgPergunta12 from '../assets/pergunta12.png'
 import imgPergunta13 from '../assets/pergunta13.png'
 import imgPergunta14 from '../assets/pergunta14.png'
 import imgPergunta15 from '../assets/pergunta15.png'
+import imgPergunta16 from '../assets/pergunta16.png'
+import imgPergunta17 from '../assets/pergunta17.png'
+import imgPergunta18 from '../assets/pergunta18.png'
+import imgPergunta19 from '../assets/pergunta19.png'
+import imgPergunta20 from '../assets/pergunta20.png'
+import imgPergunta21 from '../assets/pergunta21.png'
+import imgPergunta22 from '../assets/pergunta22.png'
+import imgPergunta23 from '../assets/pergunta23.png'
+import imgPergunta24 from '../assets/pergunta24.png'
+import imgPergunta25 from '../assets/pergunta25.png'
+import imgPergunta26 from '../assets/pergunta26.png'
+import imgPergunta27 from '../assets/pergunta27.png'
+import imgPergunta28 from '../assets/pergunta28.png'
+import imgPergunta29 from '../assets/pergunta29.png'
 
 export const perguntas = [
   {
@@ -56,7 +70,7 @@ export const perguntas = [
     emoji: '🏛️', imagem: imgPergunta4,
     texto: 'Como se chama a praça principal do centro de Brusque?',
     opcoes: [
-      { texto: 'Praça Barão do Rio Branco', correta: true  },
+      { texto: 'Praça Barão de Schneeburg', correta: true  },
       { texto: 'Praça da Sé',              correta: false },
       { texto: 'Praça da Liberdade',       correta: false },
       { texto: 'Praça Tiradentes',         correta: false },
@@ -194,5 +208,173 @@ export const perguntas = [
       { texto: '1º de Janeiro',  correta: false },
     ],
     audio: 'audio/pergunta_15.mp3',
+  },
+  {
+    id: 16, nivel: 'facil',
+    emoji: '⚽', imagem: imgPergunta16,
+    texto: 'Qual é o nome do time de futebol profissional de Brusque?',
+    opcoes: [
+      { texto: 'Avaí',               correta: false },
+      { texto: 'Figueirense',        correta: false },
+      { texto: 'Brusque Futebol Clube', correta: true  },
+      { texto: 'Chapecoense',        correta: false },
+    ],
+    audio: 'audio/pergunta_16.mp3',
+  },
+  {
+    id: 17, nivel: 'facil',
+    emoji: '🏝️', imagem: imgPergunta17,
+    texto: 'Qual é a capital de Santa Catarina, estado onde fica Brusque?',
+    opcoes: [
+      { texto: 'Curitiba',       correta: false },
+      { texto: 'Porto Alegre',   correta: false },
+      { texto: 'Florianópolis',  correta: true  },
+      { texto: 'São Paulo',      correta: false },
+    ],
+    audio: 'audio/pergunta_17.mp3',
+  },
+  {
+    id: 18, nivel: 'facil',
+    emoji: '🏘️', imagem: imgPergunta18,
+    texto: 'Qual cidade vizinha de Brusque também tem forte colonização alemã?',
+    opcoes: [
+      { texto: 'Guabiruba',  correta: true  },
+      { texto: 'Lages',      correta: false },
+      { texto: 'Joinville',  correta: false },
+      { texto: 'Criciúma',   correta: false },
+    ],
+    audio: 'audio/pergunta_18.mp3',
+  },
+  {
+    id: 19, nivel: 'facil',
+    emoji: '📍', imagem: imgPergunta19,
+    texto: 'Em que região de Santa Catarina Brusque está localizada?',
+    opcoes: [
+      { texto: 'Vale do Itajaí',        correta: true  },
+      { texto: 'Grande Florianópolis',  correta: false },
+      { texto: 'Planalto Serrano',      correta: false },
+      { texto: 'Extremo Oeste',         correta: false },
+    ],
+    audio: 'audio/pergunta_19.mp3',
+  },
+  {
+    id: 20, nivel: 'facil',
+    emoji: '⛰️', imagem: imgPergunta20,
+    texto: 'Brusque fica num lugar bem verde, cercado por:',
+    opcoes: [
+      { texto: 'Desertos de areia', correta: false },
+      { texto: 'Morros e matas',    correta: true  },
+      { texto: 'Geleiras',          correta: false },
+      { texto: 'Vulcões',           correta: false },
+    ],
+    audio: 'audio/pergunta_20.mp3',
+  },
+  {
+    id: 21, nivel: 'medio',
+    emoji: '🗣️', imagem: imgPergunta21,
+    texto: 'Além do português, qual idioma os primeiros moradores de Brusque falavam?',
+    opcoes: [
+      { texto: 'Italiano', correta: false },
+      { texto: 'Alemão',   correta: true  },
+      { texto: 'Espanhol', correta: false },
+      { texto: 'Francês',  correta: false },
+    ],
+    audio: 'audio/pergunta_21.mp3',
+  },
+  {
+    id: 22, nivel: 'medio',
+    emoji: '📅', imagem: imgPergunta22,
+    texto: 'Em que ano Brusque foi fundada pelos colonizadores?',
+    opcoes: [
+      { texto: '1850', correta: false },
+      { texto: '1860', correta: true  },
+      { texto: '1888', correta: false },
+      { texto: '1900', correta: false },
+    ],
+    audio: 'audio/pergunta_22.mp3',
+  },
+  {
+    id: 23, nivel: 'medio',
+    emoji: '🧭', imagem: imgPergunta23,
+    texto: 'O Brasil é dividido em regiões. Em qual região do país está Brusque?',
+    opcoes: [
+      { texto: 'Região Norte',        correta: false },
+      { texto: 'Região Nordeste',     correta: false },
+      { texto: 'Região Sul',          correta: true  },
+      { texto: 'Região Centro-Oeste', correta: false },
+    ],
+    audio: 'audio/pergunta_23.mp3',
+  },
+  {
+    id: 24, nivel: 'medio',
+    emoji: '🎓', imagem: imgPergunta24,
+    texto: 'Qual é o nome da universidade de Brusque que ajudou a criar este jogo?',
+    opcoes: [
+      { texto: 'UFSC',    correta: false },
+      { texto: 'UNIFEBE', correta: true  },
+      { texto: 'UDESC',   correta: false },
+      { texto: 'USP',     correta: false },
+    ],
+    audio: 'audio/pergunta_24.mp3',
+  },
+  {
+    id: 25, nivel: 'medio',
+    emoji: '🌳', imagem: imgPergunta25,
+    texto: 'Que tipo de vegetação natural cobre boa parte de Brusque e da região?',
+    opcoes: [
+      { texto: 'Cerrado',       correta: false },
+      { texto: 'Caatinga',      correta: false },
+      { texto: 'Mata Atlântica', correta: true  },
+      { texto: 'Pantanal',      correta: false },
+    ],
+    audio: 'audio/pergunta_25.mp3',
+  },
+  {
+    id: 26, nivel: 'dificil',
+    emoji: '🎗️', imagem: imgPergunta26,
+    texto: 'A cidade de Brusque recebeu esse nome em homenagem a quem?',
+    opcoes: [
+      { texto: 'Dom Pedro II',                     correta: false },
+      { texto: 'Francisco Carlos de Araújo Brusque', correta: true  },
+      { texto: 'Barão do Rio Branco',              correta: false },
+      { texto: 'Getúlio Vargas',                   correta: false },
+    ],
+    audio: 'audio/pergunta_26.mp3',
+  },
+  {
+    id: 27, nivel: 'dificil',
+    emoji: '👥', imagem: imgPergunta27,
+    texto: 'Aproximadamente, quantos habitantes Brusque tem hoje?',
+    opcoes: [
+      { texto: '15 mil',  correta: false },
+      { texto: '50 mil',  correta: false },
+      { texto: '135 mil', correta: true  },
+      { texto: '1 milhão', correta: false },
+    ],
+    audio: 'audio/pergunta_27.mp3',
+  },
+  {
+    id: 28, nivel: 'dificil',
+    emoji: '🌤️', imagem: imgPergunta28,
+    texto: 'Qual é o clima principal em Brusque?',
+    opcoes: [
+      { texto: 'Tropical seco',     correta: false },
+      { texto: 'Desértico',         correta: false },
+      { texto: 'Subtropical úmido', correta: true  },
+      { texto: 'Polar',             correta: false },
+    ],
+    audio: 'audio/pergunta_28.mp3',
+  },
+  {
+    id: 29, nivel: 'dificil',
+    emoji: '🪗', imagem: imgPergunta29,
+    texto: 'Nas festas de tradição alemã em Brusque, como a Fenarreco, é comum ouvir música tocada com:',
+    opcoes: [
+      { texto: 'Violão elétrico',   correta: false },
+      { texto: 'Acordeon (sanfona)', correta: true  },
+      { texto: 'Tambor africano',   correta: false },
+      { texto: 'Flauta indígena',   correta: false },
+    ],
+    audio: 'audio/pergunta_29.mp3',
   },
 ]

@@ -1,3 +1,4 @@
+
 # BrusqueGame 🦆
 
 **BrusqueGame** é um jogo educativo e interativo criado para crianças aprenderem sobre a história, cultura e identidade da cidade de **Brusque – SC**.
@@ -6,7 +7,7 @@
 
 ## Sobre o jogo
 
-O jogo apresenta 15 perguntas de múltipla escolha sobre Brusque, divididas em três níveis de dificuldade. Cada partida embaralha as perguntas e as alternativas de posição, incentivando o raciocínio em vez da memorização. Todas as perguntas possuem narração em áudio e uma imagem ilustrativa.
+O jogo apresenta 29 perguntas de múltipla escolha sobre Brusque, divididas em três níveis de dificuldade. Cada partida embaralha as perguntas e as alternativas de posição, incentivando o raciocínio em vez da memorização. Todas as perguntas possuem narração em áudio e uma imagem ilustrativa.
 
 ---
 
@@ -24,9 +25,9 @@ O jogo apresenta 15 perguntas de múltipla escolha sobre Brusque, divididas em t
 
 | Nível | Perguntas | Conteúdo |
 |---|---|---|
-| ⭐ Fácil | 5 | Nome da cidade, bandeira, doce típico, passarinho e aniversário |
-| ⭐⭐ Médio | 4 | Rio, estado, indústria e apelido da cidade |
-| ⭐⭐⭐ Difícil | 6 | Praça, festa, colonização, prato típico, parque e casas Enxaimel |
+| ⭐ Fácil | 10 | Nome da cidade, bandeira, doce típico, passarinho, aniversário, time de futebol, capital de SC, cidade vizinha, região e geografia local |
+| ⭐⭐ Médio | 9 | Rio, estado, indústria, apelido da cidade, idioma, ano de fundação, região do Brasil, universidade e vegetação |
+| ⭐⭐⭐ Difícil | 10 | Praça, festa, colonização, prato típico, parque, casas Enxaimel, origem do nome da cidade, população, clima e música tradicional |
 
 ---
 
@@ -35,7 +36,7 @@ O jogo apresenta 15 perguntas de múltipla escolha sobre Brusque, divididas em t
 - Nome e localização de Brusque
 - Rio Itajaí-Mirim
 - Estado de Santa Catarina
-- Praça Barão do Rio Branco
+- Praça Barão de Schneeburg
 - Festa Fenarreco
 - Colonização alemã
 - Bandeira (verde e branco)
@@ -47,6 +48,19 @@ O jogo apresenta 15 perguntas de múltipla escolha sobre Brusque, divididas em t
 - Casas Enxaimel
 - Sabiá
 - Aniversário 4 de Agosto
+- Time de futebol (Brusque Futebol Clube)
+- Capital de Santa Catarina (Florianópolis)
+- Cidade vizinha (Guabiruba)
+- Região do Vale do Itajaí
+- Idioma dos primeiros moradores (alemão)
+- Ano de fundação de Brusque
+- Região Sul do Brasil
+- UNIFEBE
+- Mata Atlântica
+- Origem do nome da cidade
+- População de Brusque
+- Clima da região
+- Música tradicional (acordeon)
 
 ---
 
